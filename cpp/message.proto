@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package message;
+
+message Message {
+    int32 ID=1;
+    float SPEED=2;
+    float x=3;
+    float y=4;
+    float w=5;
+    float l=6;
+}
+
+message Message2{
+    repeated Message car=1;
+}
